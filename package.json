@@ -1,6 +1,6 @@
 {
     "name": "verdaccio-regman",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "An amazing verdaccio auth plugin",
     "main": "index.js",
     "engines": {
@@ -22,6 +22,7 @@
         "test": "grunt"
     },
     "dependencies": {
-        "http-errors": "^1.7.1"
+        "gelf": "2.0.1",
+        "http-errors": "1.7.1"
     }
 }

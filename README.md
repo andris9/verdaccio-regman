@@ -14,6 +14,14 @@ npm install verdaccio-regman
 auth:
   regman:
     db_file: /path/to/registry-manager-users.json # must be readable
+    gelf:
+      enabled: false # if true then sends events to Graylog
+      hostname: false # defaults to os.hostname()
+      facility: "verdaccio"
+      options:
+        graylogPort: 12201
+        graylogHostname: "127.0.0.1"
+        connection: "lan"
 ```
 
 ### Usage
