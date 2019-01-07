@@ -1,6 +1,6 @@
 {
     "name": "verdaccio-regman",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "An amazing verdaccio auth plugin",
     "main": "index.js",
     "engines": {
